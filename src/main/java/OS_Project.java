@@ -1,4 +1,4 @@
-
+// this file is useless, the project runs from MainGUI.java
 import views.MainGUI;
 
 public class OS_Project {
