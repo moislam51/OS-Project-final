@@ -86,7 +86,7 @@ run.addActionListener(e -> {
         return;
     }
 
-    controller.SchedulerController schedulerController = new controller.SchedulerController();
+    controllers.SchedulerController schedulerController = new controllers.SchedulerController();
     models.Result[] results = schedulerController.runScheduling(processList, q);
 
     views.ComparisonPanel compPanel = new views.ComparisonPanel();
